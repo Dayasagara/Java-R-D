@@ -1,6 +1,12 @@
 package com.daya.ParkingService;
 
 public class CustomerDetails {
+	@Override
+	public String toString() {
+		return "CustomerDetails [customerName=" + customerName + ", phoneNo=" + phoneNo + ", parkTime=" + parkTime
+				+ "]";
+	}
+
 	String customerName,phoneNo,parkTime;
 
 	public CustomerDetails() {
